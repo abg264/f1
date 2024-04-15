@@ -1,0 +1,55 @@
+<html>
+<head>
+<title> FORMULARIOS </title>
+</head>
+<body>
+<h1>
+Formulario de Registro
+</h1>
+<br>
+<! - - Un formulario siempre empieza con el tag form - ->
+<form name="formulario" action="mailto: destino@servidor.com?subject=prueba" method="post" enctype="text/plain">
+Nombre: &nbsp;
+<input type="text" name="nombre_usuario" size=20 maxlength=50>
+
+<br> <br>
+
+Apellidos: &nbsp;
+<input type="text" name="nombre_usuario" size=20 maxlength=50>
+
+<br> <br>
+
+Sexo: Masculino
+<input type="radio" name="sexo" value="m" checked>
+&nbsp;&nbsp;&nbsp;Femenino
+<input type="radio" name="sexo" value="f">
+
+<br>
+<br>
+
+Correo: &nbsp;
+<input type="text" name="nombre_usuario" size=20 maxlength=50>
+
+<br>
+<br>
+
+<input type="checkbox" name="adulto" value="si" checked>
+Deseo recibir informacion sobre novedade y ofertas
+<input type="hidden" name="escondido" value="oculto">
+
+
+<br>
+
+<input type="checkbox" name="adulto" value="si">
+Declaro haber leido y aceptar las condiciones generales
+ del programa y la normativa sobre proteccion de datos
+<input type="hidden" name="escondido" value="oculto">
+
+<br> <br>
+
+<input type="submit" name="mandar" value="Enviar">
+&nbsp; &nbsp;
+
+</form>
+</body>
+</html>
